@@ -1,0 +1,40 @@
+.homePage {
+  width: 100%;
+  height: 300px;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* height: 200px; */
+  /* max-width: 600px; */
+  /* margin: 0 auto; */
+}
+
+.slider-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.prev-btn {
+  left: -143px;
+}
+
+.next-btn {
+  right: -95px;
+}
